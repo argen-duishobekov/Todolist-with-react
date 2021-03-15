@@ -1,0 +1,63 @@
+
+
+body{
+    background-image: url(./bg.jpg);
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    font-family: ‘Kaushan Script’, cursive;
+    font-size: 45px;
+    color: #2E8B57;
+    text-shadow: 1px 1px 3px #fff;
+}
+
+.mainblock {
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr;
+    grid-column-gap: 5px;
+    width: 800px;
+    margin-top: 5px 5px;
+    background: #B9D6AD;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+    opacity: 0.9;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+   
+}
+
+
+.main {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.textIn {
+    height: 35px;
+    width: 450px;
+    font-size: 17px;
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-style:unset;
+}
+
+.date {
+    
+    right: 20px;
+    height: 37px;
+    width: 140px;
+}
+
+.btn {
+    width: 150px;
+    height: 40px;
+}
+
+.task {
+    font-size: 20px;
+    padding: 10px;
+}
